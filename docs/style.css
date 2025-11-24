@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(Fondo\ sitio.png);
+
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color:#eae4da
+}
+#encabezado {
+
+font-family: "syne";
+color: #eae4da ;
+
+background-color: #1d1d1b;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}     
+
+#grupo1 {
+
+ display: flex;
+ align-items: center
+  gap: 20px;
+
+}
+
+#grupo2 {
+
+ display: flex;
+ align-items: center
+  gap: 20px;
+
+}
+
+#imagen1 {
+ display: flex;
+ justify-content: center;
+}
+
+nav{
+ display: flex;
+ align-items: center
+  gap: 20px;
+
+}
