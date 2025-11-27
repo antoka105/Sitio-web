@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(/docs/Fondo-sitio.png);
+
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color:#eae4da;
+  background-color: #1d1d1b;
+}
+
+#encabezado {
+
+text-align: center;
+
+}
+
+#cuerpo1 {
+
+ display: flex;
+ align-items: center;
+ gap:20px;    
+
+}
+
+#cuerpo2 {
+
+ display: flex;
+ align-items: center;
+ gap:20px;    
+
+}
+
+#botones {
+
+text-align: center;
+
+}
+
+#categorías {
+
+text-align: center;
+
+}
