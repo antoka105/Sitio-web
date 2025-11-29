@@ -25,7 +25,18 @@ text-align: center;
 
 }
 
-#cuerpo2 {
+#subtítulo {
+
+  font-family: "syne";
+  color: #eae4da ;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  gap: 0px;
+
+}
+
+#cuerpo3 {
 
  display: flex;
  align-items: center;

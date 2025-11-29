@@ -12,17 +12,42 @@ body {
   font-style: normal;
   color:#eae4da
 }
+
+
 #encabezado {
-
-font-family: "syne";
-color: #eae4da ;
-
-background-color: #1d1d1b;
+  font-family: "syne";
+  color: #eae4da ;
+  background-color: #1d1d1b;
   display: flex;
   align-items: center;
   gap: 20px;
+  display: flex;          /* coloca logo y textos lado a lado */
+  align-items: center;    /* centra verticalmente */
+  gap: 15px;              /* espacio entre logo y texto */
+  padding: 10px;
+}
 
-}     
+.logo {
+  width: 200px;            /* ajusta el tamaño del logo */
+  height: auto;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column; /* título arriba, subtítulo abajo */
+}
+
+.titulo {
+  margin: 0;              /* elimina espacios extra */
+  font-size: 45px;
+}
+
+.subtitulo {
+  margin: 0;
+  font-size: 23px;
+  
+}
+  
 
 #grupo1 {
 
@@ -41,7 +66,7 @@ text-align: center;
 
 .texto1 {
   position: absolute;
-  top: 58%;
+  top: 78%;
   left: 59%;
   transform: translate(-50%, -50%)
   }
@@ -68,11 +93,6 @@ gap: 20px;
   color: #eae4da;
   padding-left: 6%;
   padding-right: 45%;
-}
-
-#imagen1 {
- display: flex;
- justify-content: center;
 }
 
 #estrellas{
